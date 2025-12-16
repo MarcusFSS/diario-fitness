@@ -9,7 +9,7 @@ st.set_page_config(
     layout="centered"
 )
 
-st.image("logo.png", width=160)
+st.image("logo.png", width=200)
 st.title("DailyFit")
 st.caption("Diário simples de calorias, musculação, cardio e água")
 

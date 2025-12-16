@@ -24,8 +24,11 @@ else:
     ])
 
 st.subheader("➕ Registrar o dia")
-
-dia = st.date_input("Data", value=date.today())
+dia = st.date_input(
+    "Data",
+    value=date.today(),
+    format="DD/MM/YYYY"
+)
 calorias = st.number_input("Calorias consumidas", min_value=0, step=50)
 treino = st.text_input("Treino realizado")
 cardio = st.number_input("Cardio (minutos)", min_value=0, step=5)
